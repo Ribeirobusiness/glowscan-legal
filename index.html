@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – GlowScan</title>
+  <style>
+    :root {
+      --bg: #0f0f0f;
+      --surface: #1a1a1a;
+      --border: #2a2a2a;
+      --primary: #f4a261;
+      --text: #e8e8e8;
+      --muted: #888;
+      --radius: 12px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      padding: 0 16px 80px;
+    }
+
+    header {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 56px 0 32px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--primary);
+      color: #0f0f0f;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 50px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 12px;
+      color: #fff;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding-top: 40px;
+    }
+
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2 .icon {
+      font-size: 22px;
+    }
+
+    p {
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .highlight {
+      background: rgba(244, 162, 97, 0.08);
+      border-left: 3px solid var(--primary);
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 16px 0;
+      font-size: 15px;
+    }
+
+    .contact-card {
+      background: rgba(244, 162, 97, 0.06);
+      border: 1px solid rgba(244, 162, 97, 0.25);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      text-align: center;
+      margin-top: 8px;
+    }
+
+    .contact-card a {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    footer {
+      max-width: 760px;
+      margin: 40px auto 0;
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="badge">Legal</div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">GlowScan &nbsp;·&nbsp; Effective date: April 8, 2026 &nbsp;·&nbsp; Last updated: April 8, 2026</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2><span class="icon">👋</span> Introduction</h2>
+      <p>
+        Welcome to <strong>GlowScan</strong> ("we", "us", or "our"). GlowScan is an AI-powered skin analysis app that helps you understand your skin health using your device's camera and artificial intelligence.
+      </p>
+      <p>
+        This Privacy Policy explains what information we collect, how we use it, who we share it with, and what rights you have. By using GlowScan, you agree to the practices described in this policy.
+      </p>
+      <div class="highlight">
+        We do not sell your personal data. We do not store your photos on our servers. Your skin images are processed in real time and discarded immediately after analysis.
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="icon">📷</span> Camera &amp; Photo Data</h2>
+      <p>
+        GlowScan requires access to your device's camera to perform skin analysis. Here is exactly how your images are handled:
+      </p>
+      <ul>
+        <li><strong>Camera access:</strong> Used only when you initiate a scan. We never access your camera in the background.</li>
+        <li><strong>Image transmission:</strong> Your photo is sent securely (HTTPS/TLS) to OpenAI's API for AI analysis only at the moment of your request.</li>
+        <li><strong>No permanent storage:</strong> We do not store, archive, or retain your photos on our servers after the analysis is returned.</li>
+        <li><strong>On-device:</strong> Images are never saved to your camera roll unless you explicitly choose to save a result.</li>
+        <li><strong>No facial recognition:</strong> GlowScan does not use facial recognition or biometric identification technology.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><span class="icon">🤖</span> AI Analysis (OpenAI Vision)</h2>
+      <p>
+        GlowScan uses <strong>OpenAI's GPT-4o Vision API</strong> to analyze skin conditions from photos. When you perform a scan:
+      </p>
+      <ul>
+        <li>Your image is transmitted to OpenAI's servers for processing.</li>
+        <li>OpenAI processes the image and returns analysis results to the app.</li>
+        <li>OpenAI's handling of data is governed by their <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a> and <a href="https://openai.com/policies/api-data-usage-policies" target="_blank" rel="noopener">API Data Usage Policies</a>.</li>
+        <li>As of the effective date of this policy, OpenAI does not use API-submitted data to train their models by default.</li>
+      </ul>
+      <p>
+        AI-generated skin analysis results are for informational purposes only and do not constitute medical advice. Always consult a qualified dermatologist for medical concerns.
+      </p>
+    </section>
+
+    <section>
+      <h2><span class="icon">📋</span> Information We Collect</h2>
+      <p>We collect the minimum data necessary to operate the app:</p>
+      <ul>
+        <li><strong>Account data:</strong> Email address and authentication credentials if you create an account (managed via Supabase Auth).</li>
+        <li><strong>Usage data:</strong> Number of scans performed, app features used, session duration — used to improve the service.</li>
+        <li><strong>Device information:</strong> Device type, operating system version, app version — used for troubleshooting and compatibility.</li>
+        <li><strong>Subscription data:</strong> Subscription status and purchase history — managed via RevenueCat and Apple In-App Purchases. We do not store payment card details.</li>
+        <li><strong>Crash reports:</strong> Anonymized crash logs to help us fix bugs and improve stability.</li>
+      </ul>
+      <p>We do <strong>not</strong> collect: your name, physical address, or social media profiles unless you voluntarily provide them.</p>
+    </section>
+
+    <section>
+      <h2><span class="icon">💳</span> Subscriptions &amp; Payments</h2>
+      <p>
+        GlowScan offers premium features through a subscription model. All payments are processed through <strong>Apple In-App Purchases</strong>, managed by <strong>RevenueCat</strong>.
+      </p>
+      <ul>
+        <li>Payment information is handled entirely by Apple and never touches our servers.</li>
+        <li>RevenueCat provides us with subscription status and entitlement data only — no raw payment details.</li>
+        <li>Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period.</li>
+        <li>You can manage or cancel your subscription at any time via your Apple ID settings.</li>
+        <li>RevenueCat's privacy practices are described in their <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><span class="icon">🔗</span> Third-Party Services</h2>
+      <p>GlowScan integrates with the following third-party services:</p>
+      <ul>
+        <li><strong>Supabase</strong> — Backend infrastructure (database, authentication). Data stored in secure, encrypted servers. <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></li>
+        <li><strong>OpenAI</strong> — AI Vision API for skin analysis. <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a></li>
+        <li><strong>RevenueCat</strong> — Subscription management. <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></li>
+        <li><strong>Apple App Store</strong> — App distribution and in-app purchases. <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Privacy Policy</a></li>
+      </ul>
+      <p>We carefully select partners that uphold strong data protection standards.</p>
+    </section>
+
+    <section>
+      <h2><span class="icon">🔒</span> Data Security</h2>
+      <p>
+        We take data security seriously and implement industry-standard measures to protect your information:
+      </p>
+      <ul>
+        <li>All data transmissions are encrypted using TLS/HTTPS.</li>
+        <li>Authentication data is managed by Supabase with bcrypt password hashing and secure session tokens.</li>
+        <li>We do not log or persist images or analysis results on our infrastructure.</li>
+        <li>Access to backend systems is restricted and monitored.</li>
+      </ul>
+      <p>
+        No method of transmission over the internet is 100% secure. While we strive to protect your data, we cannot guarantee absolute security.
+      </p>
+    </section>
+
+    <section>
+      <h2><span class="icon">🌍</span> Data Retention &amp; International Transfers</h2>
+      <p>
+        Account data is retained for as long as your account is active. You may request deletion at any time (see "Your Rights" below).
+      </p>
+      <p>
+        Our services and third-party providers may process data in different countries, including the United States. By using GlowScan, you consent to the transfer of your data to these locations, which may have different data protection laws than your country of residence.
+      </p>
+    </section>
+
+    <section>
+      <h2><span class="icon">👶</span> Children's Privacy</h2>
+      <p>
+        GlowScan is not directed at children under the age of 13 (or 16 in the European Economic Area). We do not knowingly collect personal data from children.
+      </p>
+      <p>
+        If you believe a child has provided us with personal data, please contact us immediately at <a href="mailto:skinanalysis.support@gmail.com">skinanalysis.support@gmail.com</a> and we will delete that information promptly.
+      </p>
+    </section>
+
+    <section>
+      <h2><span class="icon">⚖️</span> Your Rights</h2>
+      <p>Depending on your location, you may have the following rights regarding your personal data:</p>
+      <ul>
+        <li><strong>Access:</strong> Request a copy of the data we hold about you.</li>
+        <li><strong>Correction:</strong> Request correction of inaccurate data.</li>
+        <li><strong>Deletion:</strong> Request deletion of your account and associated data ("right to be forgotten").</li>
+        <li><strong>Portability:</strong> Request your data in a portable format.</li>
+        <li><strong>Objection:</strong> Object to certain processing activities.</li>
+        <li><strong>Withdraw consent:</strong> Withdraw consent at any time where processing is based on consent.</li>
+      </ul>
+      <p>
+        To exercise any of these rights, contact us at <a href="mailto:skinanalysis.support@gmail.com">skinanalysis.support@gmail.com</a>. We will respond within 30 days.
+      </p>
+    </section>
+
+    <section>
+      <h2><span class="icon">🍪</span> Analytics &amp; Tracking</h2>
+      <p>
+        GlowScan does not use third-party advertising networks or tracking SDKs. We may collect anonymized, aggregated usage statistics to understand how the app is used and to improve features. This data cannot be used to identify you personally.
+      </p>
+      <p>
+        We respect Apple's App Tracking Transparency (ATT) framework and do not track users across apps or websites owned by other companies.
+      </p>
+    </section>
+
+    <section>
+      <h2><span class="icon">🔄</span> Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date at the top of this page and notify you via the app or email if the changes are material.
+      </p>
+      <p>
+        Continued use of GlowScan after changes are posted constitutes your acceptance of the updated policy.
+      </p>
+    </section>
+
+    <section>
+      <h2><span class="icon">📬</span> Contact Us</h2>
+      <p>
+        If you have any questions, concerns, or requests regarding this Privacy Policy or your personal data, please reach out:
+      </p>
+      <div class="contact-card">
+        <p style="color: var(--muted); font-size: 14px; margin-bottom: 8px;">GlowScan Support Team</p>
+        <a href="mailto:skinanalysis.support@gmail.com">skinanalysis.support@gmail.com</a>
+      </div>
+      <p style="margin-top: 16px;">
+        We aim to respond to all inquiries within <strong>5 business days</strong>.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 GlowScan. All rights reserved.</p>
+    <p style="margin-top: 6px;">This privacy policy was last updated on April 8, 2026.</p>
+  </footer>
+
+</body>
+</html>
